@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <Title>Sign up form</Title>
+
+    <style>
+      .first-name,
+      .last-name {
+        width: 100px;
+        margin-right: 5px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        border-width: .5px;
+        border-color: rgba(0, 0, 0, .2);
+      }
+
+      .email {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 230px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        border-width: .5px;
+        border-color: rgba(0, 0, 0, .2);
+      }
+
+      .sign-up-button {
+        width: 250px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: #1DA1F2;
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: opacity .15s;
+      }
+
+      .sign-up-button:hover {
+        opacity: .8;
+      }
+
+      .sign-up-button:active {
+        opacity: 1;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <input class="first-name"
+           type="text"
+           placeholder="First name">
+
+    <input class="last-name"
+           type="text"
+           placeholder="Last name">
+
+    <input class="email"
+           type="email"
+           placeholder="Email">
+
+    <button class="sign-up-button">
+      Sign Up
+    </button>
+  </body>
+
+</html>

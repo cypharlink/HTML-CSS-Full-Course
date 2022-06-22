@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+    div {
+      text-align: center;
+    }
+
+    .google-logo {
+      width: 250px;
+      margin-top: 80px;
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
+
+    .search {
+      width: 580px;
+      padding: 15px 20px;
+      border-style: none;
+      border-radius: 280px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+      margin-bottom: 30px;
+    }
+
+    .google-search,
+    .feeling {
+      border-style: none;
+      border-radius: 2px;
+      padding: 10px 15px;
+      margin-left: 4px;
+      margin-right: 4px;
+      font-weight: bold;
+      transition: opacity .15s;
+      cursor: pointer;
+    }
+
+    .google-search:hover,
+    .feeling:hover {
+      opacity: .7;
+    }
+
+    .google-search:active,
+    .feeling:active {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="/assets/google-logo.png" class="google-logo">
+  </div>
+
+  <div>
+    <input class="search" placeholder="Search Google or type a URL">
+  </div>
+
+  <div>
+    <button class="google-search">
+      Google Search
+    </button>
+
+    <button class="feeling">
+      I'm Feeling Lucky
+    </button>
+  </div>
+</body>
+
+</html>

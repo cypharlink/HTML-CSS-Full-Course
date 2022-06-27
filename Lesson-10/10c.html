@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>10C</title>
+  <style>
+    body {
+      background-color: #191919;
+    }
+
+    p {
+      color: white;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      font-family: Arial, sans-serif;
+    }
+
+    .item-container {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    .thumbnail-container {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .thumbnail {
+      width: 350px;
+      cursor: pointer;
+    }
+
+    .info-container {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 5px;
+      width: 290px;
+    }
+
+    .title {
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 2px;
+      cursor: pointer;
+    }
+
+    .stats {
+      font-size: 12px;
+      opacity: .5;
+      cursor: pointer;
+    }
+
+    .channal-container {
+      margin-top: 15px;
+      display: inline-block;
+      transition: visibility .2s;
+    }
+
+    .tool-tip-text {
+      visibility: hidden;
+      font-size: 12px;
+      background-color: rgba(159, 159, 159, 0.171);
+      color: #fff;
+      text-align: center;
+      padding: 6px 6px;
+      margin-left: 10px;
+      font-family: Arial;
+      transition: visibility .2s;
+
+    
+      /* Position the tooltip text - see examples below! */
+      position: absolute;
+      z-index: 1;
+    }
+
+    .channal-container:hover .tool-tip-text{
+      visibility: visible;
+    }
+
+    .channal-logo {
+      width: 30px;
+      border-radius: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .channal-name {
+      font-size: 12px;
+      display: inline-block;
+      vertical-align: middle;
+      opacity: .5;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+
+    .channal-name:hover {
+      opacity: 1;
+    }
+
+    .description {
+      font-size: 12px;
+      opacity: .5;
+      margin-top: 15px;
+      width: 350px;
+      cursor: pointer;
+    }
+
+    .content-container {
+      width: 320px;
+      margin-top: 15px;
+      background-color: rgb(35, 35, 35);
+      padding: 4px 4px;
+      transition: background-color .15s;
+      cursor: pointer;
+    }
+
+    .content-container:hover {
+      background-color: rgb(66, 66, 66);
+    }
+
+    .left-content {
+      display: inline-block;
+      width: 70%;
+    }
+
+    .content-image {
+      width: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .content-description {
+      font-size: 12px;
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+
+    .right-content {
+      display: inline-block;
+    }
+
+    .content-count {
+      font-size: 12px;
+      display: inline-block;
+      vertical-align: middle;
+      opacity: .5;
+      cursor: pointer;
+    }
+
+    .res-container {
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .res,
+    .cc {
+      background-color: rgb(48, 48, 48);
+      color: rgb(159, 159, 159);
+      font-size: 12px;
+      font-weight: bold;
+      display: inline-block;
+      padding: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="item-container">
+
+    <div class="thumbnail-container">
+      <img src="/assets/dapp-university-1.webp" alt="" class="thumbnail">
+    </div>
+
+    <div class="info-container">
+      <p class="title">How to Get a Blockchain Developer Job in 2 Months!</p>
+      <p class="stats">36K views &#183; 1 year ago</p>
+      <div class="channal-container">
+        <img src="/assets/dapp-logo.jpg" alt="" class="channal-logo">
+        <p class="channal-name">Dapp University</p>
+        <span class="tool-tip-text">
+          Dapp University
+        </span>
+      </div>
+      <p class="description">Become an in-demand blockcchain MASTER: https://dappuni...</p>
+
+      <div class="content-container">
+        <div class="left-content">
+          <img src="/assets/content-image.webp" alt="" class="content-image">
+          <p class="content-description">WHAT WAS YOUR...</p>
+        </div>
+
+        <div class="right-content">
+          <p class="content-count">3 moments</p>
+          <img src="style-scope yt-icon" alt="" class="content-arrow">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="item-container">
+
+    <div class="thumbnail-container">
+      <img src="/assets/anuj-thumbnai-1.webp" alt="" class="thumbnail">
+    </div>
+
+    <div class="info-container">
+      <p class="title">Complete Blockchain Development Roadmap 🔥 What is Blockchain...</p>
+      <p class="stats">434K views &#183;
+        10 months ago </p>
+      <div class="channal-container">
+        <img src="/assets/anuj-logo.jpg" alt="" class="channal-logo">
+        <p class="channal-name">Anuj Bhiya</p>
+        <span class="tool-tip-text">
+          Anuj Bhaiya
+        </span>
+      </div>
+      <p class="description">How much Blockchain developers make? How long would it take for me to become a Blockchain developer? Pre-requisites to ...</p>
+
+      <div class="res-container">
+        <p class="res">4K</p>
+        <p class="cc">CC</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

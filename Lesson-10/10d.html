@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>10D</title>
+    <style>
+      p,
+      button {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .main-container {
+        display: inline-block;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgba(96, 96, 96, .4);
+        transition: margin .15s;
+        margin-right: 8px;
+      }
+
+      .main-container:hover {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .top-container {
+        display: block;
+      }
+
+      .thumbnail {
+        width: 115px;
+        height: 115px;
+        object-fit: cover;
+      }
+
+      .middle-container {
+        display: inline-block;
+        margin-top: 2px;
+        margin-left: 4px;
+      }
+
+      .username {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 2px;
+      }
+
+      .profile {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 2px;
+      }
+
+      .frends-status {
+        font-size: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        opacity: .8;
+      }
+
+      .bottom-container {
+        display: block;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+      }
+
+      .add-button {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(62, 149, 255);
+        border-style: none;
+        border-radius: 4px;
+        box-shadow: 2px 2px 5px rgba(96, 96, 96, .5);
+        padding: 5px 8px;
+        transition: opacity .15s;
+      }
+
+      .add-button:hover {
+        opacity: .8;
+      }
+
+      .add-button:active{
+        opacity: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container">
+
+      <div class="top-container">
+        <img src="/assets/cat.jpg" alt="" class="thumbnail">
+      </div>
+
+      <div class="middle-container">
+        <p class="username">
+          Oliver
+        </p>
+
+        <div class="freinds-container">
+          <img src="/assets/dog2.jpg" alt="" class="profile">
+          <p class="frends-status">2 mutual freinds</p>
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <button class="add-button">Add Freind</button>
+      </div>
+
+    </div>
+
+    <div class="main-container">
+
+      <div class="top-container">
+        <img src="/assets/cat2.jpg" alt="" class="thumbnail">
+      </div>
+
+      <div class="middle-container">
+        <p class="username">
+          Mimi
+        </p>
+
+        <div class="freinds-container">
+          <img src="/assets/dog2.jpg" alt="" class="profile">
+          <p class="frends-status">3 mutual freinds</p>
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <button class="add-button">Add Freind</button>
+      </div>
+
+    </div>
+
+    <div class="main-container">
+
+      <div class="top-container">
+        <img src="/assets/dog.jpg" alt="" class="thumbnail">
+      </div>
+
+      <div class="middle-container">
+        <p class="username">
+          Rex
+        </p>
+
+        <div class="freinds-container">
+          <img src="/assets/dog2.jpg" alt="" class="profile">
+          <p class="frends-status">1 mutual freinds</p>
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <button class="add-button">Add Freind</button>
+      </div>
+
+    </div>
+  </body>
+
+</html>

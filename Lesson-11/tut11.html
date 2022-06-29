@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Grid Practice</title>
+
+</head>
+
+<body>
+  <div style="display: grid;
+    grid-template-columns: 100px 100px 200px;">
+    <div class="div1"
+      style="background-color: lightblue;">
+      div1
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;">
+      div2
+      <p>text</p>
+    </div>
+    <div class="div2"
+      style="background-color: lightgreen;">
+      div3
+    </div>
+  </div>
+
+  <div style="margin-top: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px">
+    <div class="div1"
+      style="background-color: lightblue;">
+      100px
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;">
+      100px
+      <p>text</p>
+    </div>
+    <div class="div2"
+      style="background-color: lightgreen;">
+      200px
+    </div>
+    <div class="div2"
+      style="background-color: lightgreen;">
+      100px
+    </div>
+  </div>
+
+  <div style="margin-top: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr">
+    <div class="div1"
+      style="background-color: lightblue;">
+      100px
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;">
+      1fr
+    </div>
+  </div>
+
+  <div style="margin-top: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr">
+    <div class="div1"
+      style="background-color: lightblue;">
+      100px
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;">
+      1fr
+    </div>
+    <div class="div2"
+      style="background-color: lightgreen;">
+      2fr
+    </div>
+  </div>
+
+  <div style="margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;">
+    <div class="div1"
+      style="background-color: lightblue;
+      height: 200px;">
+      1fr
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;
+      height: 200px;">
+      1fr
+    </div>
+    <div class="div2"
+      style="background-color: lightblue;
+      height: 200px;">
+      1fr
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;
+      height: 200px;">
+      1fr
+    </div>
+    <div class="div1"
+      style="background-color: lightblue;
+      height: 200px;">
+      1fr
+    </div>
+    <div class="div2"
+      style="background-color: lightcoral;
+      height: 200px;">
+      1fr
+    </div>
+  </div>
+</body>
+
+</html>

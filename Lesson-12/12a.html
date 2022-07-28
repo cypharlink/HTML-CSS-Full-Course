@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .topbar {
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      /* Left item */
+      .left-item {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        margin-right: 50px;
+        align-items: center;
+      }
+
+      .logo {
+        margin-left: 25px;
+        width: 100px;
+      }
+
+      .bar {
+        width: 20px;
+        margin-left: 15px;
+      }
+
+      /* Middle item */
+      .middle-item {
+        flex: 2;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .search {
+        color: gray;
+        flex: 1;
+        margin-right: 10px;
+      }
+
+      .mic {
+        width: 35px;
+        background-color: whitesmoke;
+        border-style: none;
+        border-radius: 50%;
+        padding: 5px;
+      }
+
+      /* Right item */
+      .right-item {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top bar -->
+    <div class="topbar">
+      <!-- Left item -->
+      <div class="left-item">
+        <div>
+          <img src="/assets/bar.png" alt="" class="bar" />
+        </div>
+        <div>
+          <img src="/assets/youtube-logo.png" alt="" class="logo" />
+        </div>
+      </div>
+      <!-- Middle item -->
+      <div class="middle-item">
+        <div>
+          <input type="text" class="search" placeholder="search" />
+        </div>
+        <div>
+          <img src="/assets/mic.png" alt="" class="mic" />
+        </div>
+      </div>
+      <!-- Right item -->
+      <div class="right-item">Right Item</div>
+    </div>
+  </body>
+</html>

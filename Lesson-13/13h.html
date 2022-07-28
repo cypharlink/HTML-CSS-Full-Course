@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>YouTube</title>
+
+    <style>
+      .top-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .left-item {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .menu {
+        width: 24px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .youtube-logo {
+        height: 20px;
+        padding-left: 14px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      .middle-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        justify-content: center;
+      }
+
+      .search-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        max-width: 470px;
+        margin-left: 16px;
+      }
+
+      input {
+        border-style: solid;
+        border-color: rgb(189, 189, 189);
+        border-width: 0.5px;
+        height: 40px;
+        font-size: 16px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        box-shadow: inset 0px 1px 2px #eeeeee;
+        padding-left: 12px;
+        flex: 1;
+        min-width: 0;
+        margin: 0px;
+        width: 0;
+      }
+
+      .btn-search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 44px;
+        width: 64px;
+        background-color: #f7f7f7;
+        border-width: 0.5px;
+        border-color: rgb(189, 189, 189);
+        border-style: solid;
+        border-left-width: 0px;
+      }
+
+      .icon-search {
+        height: 24px;
+      }
+
+      .btn-mic {
+        display: flex;
+        border-style: none;
+        height: 44px;
+        width: 44px;
+        border-radius: 22px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+      }
+
+      .icon-mic {
+        height: 24px;
+      }
+
+      .right-item {
+        flex-direction: row;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        justify-content: space-between;
+      }
+
+      .upload {
+        height: 24px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .notification {
+        height: 24px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .profile {
+        height: 32px;
+        width: 32px;
+        object-fit: cover;
+        border-radius: 18px;
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top-bar">
+      <div class="left-item">
+        <img src="/assets/hamburger-menu.svg" alt="" class="menu" />
+        <img src="/assets/youtube-logo.svg" alt="" class="youtube-logo" />
+      </div>
+
+      <div class="middle-item">
+        <div class="search-item">
+          <input type="text" placeholder="Search" />
+          <button class="btn-search">
+            <img src="/assets/search.svg" alt="" class="icon-search" />
+          </button>
+          <button class="btn-mic">
+            <img src="/assets/voice-search-icon.svg" alt="" class="icon-mic" />
+          </button>
+        </div>
+      </div>
+
+      <div class="right-item">
+        <img src="/assets/upload.svg" alt="" class="upload" />
+        <img src="/assets/notifications.svg" alt="" class="notification" />
+        <img src="/assets/channels4_profile.jpg" alt="" class="profile" />
+      </div>
+    </div>
+  </body>
+</html>

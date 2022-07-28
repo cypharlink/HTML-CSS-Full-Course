@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>13F</title>
+
+    <style>
+      p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .main-container {
+        display: flex;
+      }
+
+      .left-container {
+        display: flex;
+        align-items: flex-start;
+        margin-right: 15px;
+      }
+
+      .profile {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .right-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .top-item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .name-item {
+        display: flex;
+        margin-bottom: 5px;
+      }
+
+      .name {
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .username {
+        font-size: 14px;
+        font-weight: normal;
+        color: gray;
+      }
+
+      .desc {
+        font-size: 14px;
+        width: 300px;
+        margin-bottom: 10px;
+      }
+
+      .bottom-item {
+        display: flex;
+      }
+
+      .thumb {
+        background-color: rgb(227, 227, 227);
+        width: 90px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+      }
+      .video-desc {
+        padding: 20px 10px;
+        flex: 1;
+        border-style: solid;
+        border-width: 1px;
+        width: 200px;
+        border-radius: 15px;
+        border-left: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-color: rgb(227, 227, 227);
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .link {
+        color: rgb(77, 172, 255);
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+
+      .link-desc {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="left-container">
+        <img src="/assets/dog.jpg" alt="" class="profile" />
+      </div>
+
+      <div class="right-container">
+        <div class="top-item">
+          <div class="name-item">
+            <p class="name">supersimple.dev</p>
+            <p class="username">@SuperSimpleDev</p>
+          </div>
+          <p class="desc">
+            What is backend web development? A complete overview. New video is
+            up!
+          </p>
+        </div>
+
+        <div class="bottom-item">
+          <div class="thumb"></div>
+          <div class="video-desc">
+            <p class="link">
+              <a href="https://www.youtube.com">youtube.com</a>
+            </p>
+            <p class="link-desc">
+              Backend web development - a complete overview (2021)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

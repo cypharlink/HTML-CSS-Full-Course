@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>YouTube</title>
+
+    <style>
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+      }
+
+      .video-card {
+        width: 300px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+        margin-bottom: 30px;
+      }
+
+      .thumbnail-container {
+        margin-bottom: 10px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .thumbnail {
+        width: 300px;
+      }
+
+      .time {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 4px 5px;
+        border-radius: 2px;
+      }
+
+      .channel-container {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .profile {
+        width: 36px;
+        height: 36px;
+        border-radius: 18px;
+        vertical-align: top;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
+        margin-left: 10px;
+      }
+
+      .video-description {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .channel-name {
+        font-size: 12px;
+        margin-top: 10px;
+      }
+
+      .channel-stats {
+        font-size: 12px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="video-card">
+      <a href="/exercise/16c-img.html">
+        <div class="thumbnail-container">
+          <img src="/assets/thumbnail-1.webp" class="thumbnail" />
+          <div class="time">14:00</div>
+        </div>
+      </a>
+
+      <div>
+        <div class="channel-container">
+          <img src="/assets/channel-1.jpeg" alt="" class="profile" />
+        </div>
+        <div class="video-info">
+          <p class="video-description">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="channel-name">Marques Brownleer</p>
+          <p class="channel-stats">3.4M views · 6 months ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <a href="https://www.youtube.com">
+        <div class="thumbnail-container">
+          <img src="/assets/thumbnail-2.webp" class="thumbnail" />
+          <div class="time">3:00</div>
+        </div>
+      </a>
+
+      <div class="video-info-container">
+        <div class="channel-container">
+          <img src="/assets/channel-2.jpeg" alt="" class="profile" />
+        </div>
+        <div class="video-info">
+          <p class="video-description">Try Not To Laugh Challenge #9</p>
+          <p class="channel-name">Markiplier</p>
+          <p class="channel-stats">19M views · 4 years ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
